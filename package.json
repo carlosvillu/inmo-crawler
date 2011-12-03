@@ -1,0 +1,11 @@
+{
+    "name": "inmo-crawler"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+  }
+  , "devDependencies": {
+      "should": "0.3.x"
+    , "mocha": "0.2.x"
+  }
+}
