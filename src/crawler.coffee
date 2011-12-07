@@ -8,6 +8,5 @@ for id in [1430..1500]
       .get(URL)
       .data({id: "#{id}"})
       .end (err, res)->
-	throw err if err
         mail = (res.text.match(/(\w+@.*)</) or [null, null])[1] or= 'KO'
         console.log "ID[#{id}] => " + mail
